@@ -1,4 +1,4 @@
-MISC : Introduction au développement d'extensions Burp - Exemple Proxy PAC
+MISC XX Introduction au développement d'extensions Burp - Exemple Proxy PAC
 ==================================================================================
 
 Description
@@ -17,7 +17,7 @@ Usage
 0. Sélectionner le chemin vers l'interpréteur Jython au sein de Burp ; 
 1. Sélectionner un dossier dans le champ `Folder for loading modules (optional)` de l'onglet `Extender/Options` de Burp ;
 2. Ajouter le fichier JAR de la bibliothèques Proxy-vole dans le dossier sélectionné précédemment ;
-3. Charger l'extension "proxy_pac.py" au sein de l'onglet `Extender` : un onglet `Proxy PAC` apparait au sein des onglets de Burp.
+3. Charger l'extension `proxy_pac.py` au sein de l'onglet `Extender` : un onglet `Proxy PAC` apparait au sein des onglets de Burp.
 
 
 Dépendances
