@@ -1,9 +1,9 @@
-MISC XX Introduction au développement d'extensions Burp - Exemple Proxy PAC
+MISC 82 Introduction au développement d'extensions Burp - Exemple Proxy PAC
 ==================================================================================
 
 Description
 -----------
-Ce dépôt contient les sources et binaires de l'extension "Proxy PAC" décrite dans l'article "Introduction au développement d'extensions Burp" du MISC n°XX.  
+Ce dépôt contient les sources et binaires de l'extension "Proxy PAC" décrite dans l'article `Introduction au développement d'extensions Burp` du MISC n°82.  
 Les ressources sont regroupées ainsi :
 ```
 +---proxy_pac.py			: Le code Jython de l'extension
