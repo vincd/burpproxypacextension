@@ -18,21 +18,21 @@ Configuration et utilisation
 
 1. Sélectionner un dossier dans le champ `Folder for loading modules (optional)` de l'onglet `Extender/Options` de Burp  
 
-2. Ajouter le fichier JAR de la bibliothèques `Proxy-vole` dans le dossier sélectionné précédemment, il sera automatiquement pris en compte par l'extension    
+2. Ajouter le **fichier JAR de la bibliothèque `Proxy-vole` dans le dossier sélectionné précédemment**, il sera automatiquement pris en compte par l'extension    
 
-3. Charger l'extension `proxy_pac.py` au sein de l'onglet `Extender` : un onglet `Proxy PAC` apparait au sein des onglets de Burp  
+3. Charger l'extension `proxy_pac.py` au sein de l'onglet `Extender` : **un onglet `Proxy PAC` apparait au sein des onglets de Burp**  
 
-4. Dans l’onglet `Proxy PAC` nouvellement créé, placer l’URL du fichier proxy PAC, changer au besoin interface (localhost par défaut) et port d'écoute(9090 par défaut) puis cliquer sur `Start Proxy PAC`
+4. Dans l’onglet `Proxy PAC` nouvellement créé, placer l’URL du fichier proxy PAC, changer au besoin l'interface (localhost par défaut) et le port d'écoute(9090 par défaut) puis cliquer sur `Start Proxy PAC`  
  La bonne prise en compte des paramètres est affichée dans l'onglet Burp `Alerts`  
  
-5. Dans l'onglet Burp `Proxy`, ajouter un "Upstream Proxy Server" avec les paramètres suivants:
-```
-Destination host: *
-Proxy host: 127.0.0.1
-Proxy port: 9090
-```
+5. Dans l'onglet Burp `Proxy`, ajouter un `Upstream Proxy Server` avec les paramètres suivants:
+    ```
+    Destination host: *
+    Proxy host: 127.0.0.1
+    Proxy port: 9090
+    ```
 
-6. Configurer votre navigateur pour rediriger les flux vers le proxy Burp (celui configuré dans l'onglet Burp `Proxy` et non l'onglet de l'extension)
+6. Configurer votre navigateur pour rediriger les flux vers le proxy Burp (celui configuré dans l'onglet Burp `Proxy` et **non celui configuré dans l'onglet de l'extension**)
 
 7. Les traces de prise en compte du fichier `proxy.pac` apparaissent dans l'onglet de l'extension `Proxy PAC`
 
