@@ -14,7 +14,7 @@ Les ressources sont regroupées ainsi :
 
 Configuration et utilisation
 ------------------------------
-0. Sélectionner le chemin vers l'interpréteur Jython au sein de Burp  
+0. Sélectionner le **chemin vers l'interpréteur Jython** au sein de Burp  
 
 1. Sélectionner un dossier dans le champ `Folder for loading modules (optional)` de l'onglet `Extender/Options` de Burp  
 
@@ -22,19 +22,19 @@ Configuration et utilisation
 
 3. Charger l'extension `proxy_pac.py` au sein de l'onglet `Extender` : **un onglet `Proxy PAC` apparait au sein des onglets de Burp**  
 
-4. Dans l’onglet `Proxy PAC` nouvellement créé, placer l’URL du fichier proxy PAC, changer au besoin l'interface (localhost par défaut) et le port d'écoute(9090 par défaut) puis cliquer sur `Start Proxy PAC`  
- La bonne prise en compte des paramètres est affichée dans l'onglet Burp `Alerts`  
+4. Dans l’onglet `Proxy PAC` nouvellement créé, placer l’URL du fichier proxy PAC, changer au besoin l'interface (localhost par défaut) et le port d'écoute (9090 par défaut) puis cliquer sur `Start Proxy PAC`  
+ La **bonne prise en compte des paramètres** est affichée dans l'onglet Burp `Alerts`  
  
-5. Dans l'onglet Burp `Proxy`, ajouter un `Upstream Proxy Server` avec les paramètres suivants:
+5. Dans l'onglet Burp `Proxy`, ajouter un `Upstream Proxy Server` avec les paramètres suivants, à adapter vis-à-vis des paramètres choisis à l'étape précédente :
     ```
     Destination host: *
     Proxy host: 127.0.0.1
     Proxy port: 9090
     ```
 
-6. Configurer votre navigateur pour rediriger les flux vers le proxy Burp (celui configuré dans l'onglet Burp `Proxy` et **non celui configuré dans l'onglet de l'extension**)
+6. Configurer le navigateur pour rediriger les flux vers le **proxy Burp** (celui configuré dans l'onglet Burp `Proxy` et **non celui configuré dans l'onglet de l'extension**)
 
-7. Les traces de prise en compte du fichier `proxy.pac` apparaissent dans l'onglet de l'extension `Proxy PAC`
+7. Les **traces de prise en compte** du fichier `proxy.pac` apparaissent dans l'onglet de l'extension `Proxy PAC`
 
 
 Dépendances
