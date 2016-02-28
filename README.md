@@ -1,6 +1,8 @@
 MISC 82 Introduction au développement d'extensions Burp - Exemple Proxy PAC
 ==================================================================================
 
+**English speakers, please read the [translated README](https://github.com/vincd/burpproxypacextension/wiki/English-README-for-the-Burp-Proxy-Extension)**
+
 Description
 -----------
 Ce dépôt contient les sources et binaires de l'extension `Proxy PAC` décrite dans l'article `Introduction au développement d'extensions Burp` du MISC n°82.  
